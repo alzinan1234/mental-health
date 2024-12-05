@@ -66,12 +66,12 @@ const MentalHealth = () => {
       <h1 className="text-center text-3xl md:text-5xl font-bold mb-12">
         Various mental health <br /> conditions are treated by us.
       </h1>
-      <div className="container mx-auto px-4">
+      <div className="max-width mx-auto px-4 py-[100px]">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[40px]">
           {mental.map((item) => (
             <div
               key={item.id}
-              className="bg-white shadow-md md:w-[344px] rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+              className="bg-white shadow-md md:w-[344px] md:p-[24px]  rounded-lg overflow-hidden transition-transform transform hover:scale-105"
             >
               <Image
                 src={item.image}
@@ -80,7 +80,9 @@ const MentalHealth = () => {
               />
               <div className="p-4">
                 <h2 className="text-[25px] font-bold mb-2">{item.title}</h2>
-                <p className="text-gray-600">{item.description}</p>
+                <p className="text-[#9C9C9C] text-[18px] font-medium">
+                  {item.description}
+                </p>
               </div>
             </div>
           ))}
