@@ -62,7 +62,7 @@ const MentalHealth = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-15 bg-gray-100">
       <h1 className="text-center text-3xl md:text-5xl font-bold mb-12">
         Various mental health <br /> conditions are treated by us.
       </h1>
