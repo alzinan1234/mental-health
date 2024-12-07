@@ -26,7 +26,7 @@ const Need = () => {
             Shop Now
           </button>
           <div className="mb-[110px]">
-            <div className=" bg-[#FFF] shadow md:flex gap-[109px] md:mt-[66px] md:p-[60px] absolute right-[-1px]">
+            <div className=" bg-[#FFF] shadow md:flex gap-[109px] md:mt-[66px] md:p-[60px] absolute right-[-1]">
               <div>
                 <h1 className="font-bold text-[36px] leading-[72px] text-blue-500">
                   31+{" "}
