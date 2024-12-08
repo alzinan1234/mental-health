@@ -1,17 +1,20 @@
+"use client";
 import chane1 from "../image/blog/Chane image.png";
+
 import chane2 from "../image/blog/Chane image (2).png";
 import chane3 from "../image/blog/Chane image (1).png";
 import avtar from "../image/blog/avater-image.png";
+import CardComponents from "../cardComponents/CardComponents";
 
 const Blog = () => {
   const data = [
     {
-      category: "Anger",
-      role: "Patient",
+      category: "Personal Growth",
+      role: "Personal Growth",
       title:
-        "Cultivating Resilience: Building Inner Strength to Overcome Life's Challenges",
+        "Navigating Social Anxiety: Strategies for Finding Comfort in Social Settings",
       description:
-        "Life is filled with ups and downs, and building resilience is essential for navigating through challenges. Resilience is the ability",
+        "Social anxiety can be a challenging experience that affects many aspects of our lives. The fear of judgment and the pressure to perform",
       author: {
         name: "Jon Doe",
         role: "Patient",
@@ -20,11 +23,12 @@ const Blog = () => {
       image: chane1,
     },
     {
-      category: "Stress",
+      category: "Relationship",
       role: "Patient",
-      title: "Managing Stress: Techniques for a Calmer Mind",
+      title:
+        "The Healing Power of Creativity: Exploring Art Therapy for Mental Well-being",
       description:
-        "Stress is a common part of life. Learn techniques to manage it effectively and bring peace to your mind and body.",
+        "Art has a unique way of expressing emotions and fostering healing, making art therapy a powerful tool for mental well-being. ",
       author: {
         name: "Jane Smith",
         role: "Patient",
@@ -33,11 +37,12 @@ const Blog = () => {
       image: chane2,
     },
     {
-      category: "Anxiety",
+      category: "Anger",
       role: "Therapist",
-      title: "Overcoming Anxiety: Strategies for a Better Life",
+      title:
+        "Cultivating Resilience: Building Inner Strength to Overcome Life's Challenges",
       description:
-        "Anxiety can be overwhelming. Discover ways to reduce anxiety and improve your quality of life.",
+        "Life is filled with ups and downs, and building resilience is essential for navigating through challenges. Resilience is the ability.",
       author: {
         name: "Sam Wilson",
         role: "Therapist",
@@ -52,6 +57,17 @@ const Blog = () => {
         <h1 className="md:text-[72px] text-[30px] text-center font-bold">
           Recent Blog
         </h1>
+
+        <div className="py-[64px] max-width mx-auto  grid gap-[40px] sm:grid-cols-1 md:grid-cols-3">
+          {data.map((item, index) => (
+            <CardComponents key={index} data={item} />
+          ))}
+        </div>
+        <div>
+          <button className="md:text-[20px] md:font-semibold text-[#636363] border border-[#636363] p-[24px] rounded-[5px] md:flex items-center justify-center mx-auto mb-6">
+            Book an Appointment
+          </button>
+        </div>
       </div>
     </>
   );
