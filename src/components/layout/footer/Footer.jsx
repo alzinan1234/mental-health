@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t mt-10 pt-6 text-center text-gray-500 font-normal text-[28px]">
-        © 2023 mental.com All rights reserved.
+        © 2023 Al-Zinan.com All rights reserved.
       </div>
     </footer>
   );
