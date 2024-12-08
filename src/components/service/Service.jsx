@@ -40,7 +40,7 @@ const Service = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     nextArrow: <CustomArrow direction="right" />,
     prevArrow: <CustomArrow direction="left" />,
     responsive: [
@@ -73,49 +73,51 @@ const Service = () => {
         </h1>
       </div>
 
-      <div className="pb-[64px] max-width mx-auto px-4">
-        <Slider {...settings}>
-          <div className="bg-[#FFF] p-[24px] shadow-md">
-            <Image
-              className="w-[298px] h-[245px] rounded-[5px]"
-              src={slider1}
-              alt="1 to 1 Therapy"
-            />
-            <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
-              1 to 1 Therapy
-            </p>
-          </div>
-          <div className="bg-[#FFF] p-[24px] shadow-md">
-            <Image
-              className="w-[298px] h-[245px] rounded-[5px]"
-              src={slider2}
-              alt="Group Therapy"
-            />
-            <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
-              Group Therapy
-            </p>
-          </div>
-          <div className="bg-[#FFF] p-[24px] shadow-md">
-            <Image
-              className="w-[298px] h-[245px] rounded-[5px]"
-              src={slider4}
-              alt="Couple Therapy"
-            />
-            <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
-              Couple Therapy
-            </p>
-          </div>
-          <div className="bg-[#FFF] p-[24px] shadow-md">
-            <Image
-              className="w-[298px] h-[245px] rounded-[5px]"
-              src={slider3}
-              alt="Family Therapy"
-            />
-            <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
-              Family Therapy
-            </p>
-          </div>
-        </Slider>
+      <div className="max-width mx-auto">
+        <div className="pb-[64px]  px-4">
+          <Slider {...settings} className="max-width mx-auto">
+            <div className="bg-[#FFF] p-[24px] shadow-md">
+              <Image
+                className="w-[298px] h-[245px] rounded-[5px]"
+                src={slider1}
+                alt="1 to 1 Therapy"
+              />
+              <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
+                1 to 1 Therapy
+              </p>
+            </div>
+            <div className="bg-[#FFF] p-[24px] shadow-md">
+              <Image
+                className="w-[298px] h-[245px] rounded-[5px]"
+                src={slider2}
+                alt="Group Therapy"
+              />
+              <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
+                Group Therapy
+              </p>
+            </div>
+            <div className="bg-[#FFF] p-[24px] shadow-md">
+              <Image
+                className="w-[298px] h-[245px] rounded-[5px]"
+                src={slider4}
+                alt="Couple Therapy"
+              />
+              <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
+                Couple Therapy
+              </p>
+            </div>
+            <div className="bg-[#FFF] p-[24px] shadow-md">
+              <Image
+                className="w-[298px] h-[245px] rounded-[5px]"
+                src={slider3}
+                alt="Family Therapy"
+              />
+              <p className="text-[25px] font-bold text-[#1F1F1F] mt-[19px]">
+                Family Therapy
+              </p>
+            </div>
+          </Slider>
+        </div>
       </div>
     </>
   );
