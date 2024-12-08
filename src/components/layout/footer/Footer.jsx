@@ -1,39 +1,42 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import GooglePlay from "../../image/otherImage/image 3.png";
+import AppStore from "../../image/otherImage/image 4.png";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="bg-white py-10">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+      <div className="max-width mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
         {/* Follow Us */}
         <div>
-          <h3 className="font-bold text-lg mb-4">Follow us</h3>
+          <h3 className="font-bold text-[28px] mb-[60px]">Follow us</h3>
           <div className="flex justify-center md:justify-start gap-4">
             <a
               href="#"
               className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 text-gray-600"
             >
-              <FaLinkedin size={20} />
+              <FaLinkedin size={48} />
             </a>
             <a
               href="#"
               className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 text-gray-600"
             >
-              <FaFacebook size={20} />
+              <FaFacebook size={48} />
             </a>
             <a
               href="#"
               className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 text-blue-500"
             >
-              <FaTwitter size={20} />
+              <FaTwitter size={48} />
             </a>
           </div>
         </div>
 
         {/* Quick Links */}
         <div>
-          <h3 className="font-bold text-lg mb-4">Quick Links</h3>
-          <ul className="space-y-2">
+          <h3 className="font-bold text-[28px] mb-[60px]">Quick Links</h3>
+          <ul className="space-y-4 text-[#1F1F1F] font-normal text-[28px]">
             <li>
               <a href="#" className="flex items-center hover:underline">
                 <span className="mr-2">›</span> Support
@@ -59,8 +62,8 @@ const Footer = () => {
 
         {/* Get Help */}
         <div>
-          <h3 className="font-bold text-lg mb-4">Get Help</h3>
-          <ul className="space-y-2">
+          <h3 className="font-bold text-[28px] mb-[60px] ">Get Help</h3>
+          <ul className="space-y-4 text-[#1F1F1F] font-normal text-[28px]">
             <li>
               <a href="#" className="flex items-center hover:underline">
                 <span className="mr-2">›</span> Support
@@ -86,18 +89,18 @@ const Footer = () => {
 
         {/* Download Our App */}
         <div>
-          <h3 className="font-bold text-lg mb-4">Download Our App</h3>
-          <div className="space-y-4">
+          <h3 className="font-bold text-[28px] mb-[60px]">Download Our App</h3>
+          <div className="flex flex-col gap-[25px]">
             <a href="#">
-              <img
-                src="/google-play.png"
+              <Image
+                src={GooglePlay}
                 alt="Google Play"
                 className="w-40 mx-auto md:mx-0"
               />
             </a>
             <a href="#">
-              <img
-                src="/app-store.png"
+              <Image
+                src={AppStore}
                 alt="App Store"
                 className="w-40 mx-auto md:mx-0"
               />
@@ -106,7 +109,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t mt-10 pt-6 text-center text-gray-500 text-sm">
+      <div className="border-t mt-10 pt-6 text-center text-gray-500 font-normal text-[28px]">
         © 2023 mental.com All rights reserved.
       </div>
     </footer>
