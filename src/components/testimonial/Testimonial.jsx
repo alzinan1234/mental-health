@@ -39,7 +39,7 @@ const Testimonial = () => {
                 {" "}
                 A Mental Health Website That Truly Cares{" "}
               </h1>
-              <p className="text-[18px] font-medium">
+              <p className="text-[19px] font-medium">
                 The mental health website has been a game-changer for me. With
                 its comprehensive resources, supportive community, and
                 compassionate team, it has provided the tools and empowerment I
