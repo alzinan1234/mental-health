@@ -1,7 +1,14 @@
+import AboutBanner from "@/components/About/AboutBanner";
+import Health from "@/components/About/Health";
 import React from "react";
 
-const about = () => {
-  return <div>About Me</div>;
+const About = () => {
+  return (
+    <>
+      <AboutBanner />
+      <Health />
+    </>
+  );
 };
 
-export default about;
+export default About;
