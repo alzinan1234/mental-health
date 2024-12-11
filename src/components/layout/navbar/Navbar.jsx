@@ -54,7 +54,7 @@ const Navbar = () => {
                 <Link href="/achievement">Achievement</Link>
               </li>
               <li className="cursor-pointer">
-                <Link href="/gallery">Gallery</Link>
+                <Link href="/Gallery">Gallery</Link>
               </li>
               <li className="cursor-pointer">
                 <Link href="/blog">Blog</Link>
