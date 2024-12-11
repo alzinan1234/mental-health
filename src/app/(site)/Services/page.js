@@ -1,9 +1,12 @@
+import MentalHealth from "@/components/mentalHealth/MentalHealth";
+import ServicesBanner from "@/components/Services/ServicesBanner";
 import React from "react";
 
 const Services = () => {
   return (
     <div>
-      <h1>Services</h1>
+      <ServicesBanner />
+      <MentalHealth />
     </div>
   );
 };

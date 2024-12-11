@@ -45,7 +45,7 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="cursor-pointer">
-                <Link href="/services">Services</Link>
+                <Link href="/Services">Services</Link>
               </li>
               <li className="cursor-pointer">
                 <Link href="/About">About Me</Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
-                <Link href="/services">Services</Link>
+                <Link href="/Services">Services</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
                 <Link href="/About">About Me</Link>
@@ -117,7 +117,7 @@ const Navbar = () => {
                 <Link href="/achievement">Achievement</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
-                <Link href="/gallery">Gallery</Link>
+                <Link href="/Gallery">Gallery</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
                 <Link href="/blog">Blog</Link>
