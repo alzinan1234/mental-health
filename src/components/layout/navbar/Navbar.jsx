@@ -51,13 +51,13 @@ const Navbar = () => {
                 <Link href="/About">About Me</Link>
               </li>
               <li className="cursor-pointer">
-                <Link href="/achievement">Achievement</Link>
+                <Link href="/Achievement">Achievement</Link>
               </li>
               <li className="cursor-pointer">
                 <Link href="/Gallery">Gallery</Link>
               </li>
               <li className="cursor-pointer">
-                <Link href="/blog">Blog</Link>
+                <Link href="/Blog">Blog</Link>
               </li>
             </ul>
           </div>
@@ -114,13 +114,13 @@ const Navbar = () => {
                 <Link href="/About">About Me</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
-                <Link href="/achievement">Achievement</Link>
+                <Link href="/Achievement">Achievement</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
                 <Link href="/Gallery">Gallery</Link>
               </li>
               <li className="hover:text-blue-500 cursor-pointer">
-                <Link href="/blog">Blog</Link>
+                <Link href="/Blog">Blog</Link>
               </li>
               <button className="md:text-[20px] md:font-semibold text-[#636363] border border-[#636363] p-4 rounded-[5px]">
                 Book an Appointment
