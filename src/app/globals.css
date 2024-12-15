@@ -46,7 +46,7 @@ body {
 }
 
 .borders {
-  border: 2px solid #ff0000;
+  border: 1px solid #ff0000;
 }
 .btn {
   color: var(--Color-Secondary-dark-800, #636363);
