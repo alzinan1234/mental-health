@@ -1,7 +1,7 @@
 import React from "react";
 
 const Blogpart = () => {
-  return <></>;
+  return <>this is a blog page</>;
 };
 
 export default Blogpart;
