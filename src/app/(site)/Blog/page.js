@@ -1,7 +1,12 @@
+import Blogpart from "@/components/blogSection/Blogpart";
 import React from "react";
 
 const Blog = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Blogpart />
+    </div>
+  );
 };
 
 export default Blog;
