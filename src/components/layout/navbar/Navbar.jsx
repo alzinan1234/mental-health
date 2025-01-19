@@ -27,7 +27,7 @@ const Navbar = () => {
           isScrolled ? "bg-white/70 backdrop-blur-md shadow-md" : "bg-white"
         }`}
       >
-        <div className="relative max-width mx-auto flex justify-between items-center py-6 px-4 md:pb-[37px] md:pt-[25px]">
+        <div className="relative max-width mx-auto flex justify-between items-center py-[13px] px-4 md:pb-[37px] md:pt-[25px]">
           {/* Logo */}
           <div className="flex items-center justify-center gap-[30px]">
             <Link href="/">
