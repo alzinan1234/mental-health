@@ -3,9 +3,7 @@ import React from "react";
 const Branch = () => {
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni dolorum
-      veritatis nemo voluptates dolor provident tempore perferendis.
-      Dignissimos, placeat.
+      <h1>this is a mirpur branch </h1>
     </div>
   );
 };
