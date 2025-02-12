@@ -88,6 +88,9 @@ const MentalHealth = () => {
           ))}
         </div>
       </div>
+      <div>
+        <h1>this is mantal health </h1>
+      </div>
     </section>
   );
 };
